@@ -19,7 +19,9 @@ export class BuscarImagenComponent {
 
     if (this.nombreImagen === '') {
       this._imagenService.setError('Campo vacio, Agrega un texto para la busqueda.')
+      return
     }
+    this._imagenService.enviarTerminoBusqueda(this.nombreImagen)
 
   }
 
