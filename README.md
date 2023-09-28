@@ -1,5 +1,7 @@
 # Pixabay
 
+A website that utilizes the Pixabay API (an image API) to display images you can search for using its search engine.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
 ## Development server
